@@ -97,11 +97,6 @@ public class CommandProcessingResultBuilder {
         return this;
     }
 
-    public CommandProcessingResultBuilder withSavingsId(final Long withSavingsId) {
-        this.savingsId = withSavingsId;
-        return this;
-    }
-
     public CommandProcessingResultBuilder withTransactionId(final String withTransactionId) {
         this.transactionId = withTransactionId;
         return this;
